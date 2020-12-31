@@ -1,0 +1,1 @@
+Linked - Beginner level PHP project which uses MySQL. To install, simply import database into your phpmyadmin (Database named 'spms'), MySQL password needs to be changed in p/linked_conn.php, in order to properly work. 
