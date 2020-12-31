@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at https://codepen.io/alexcican/pen/hEjxD.
+
+ Form and error checking done with pure HTML5 elements. The inputs are “halved” using pseudo-elements. Because we can’t add pseudo-elements on `<input>` we have to use an extra `<span>` for each input. For the password strength indicator, I’m using JS to add classes that specify the colour and animations using CSS3.

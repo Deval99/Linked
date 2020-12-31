@@ -1,0 +1,17 @@
+<?php
+//$id = $_POST['id'];
+//$pwd = $_POST['pwd'];
+//$type = $_POST['type'];
+$id = "P01";
+$pwd = "password";
+$type = "parent";
+require("spms_conn.php");
+$query = "insert into login(ID,Pwd,Type) values('$id','$pwd','$type')";
+if($run = mysql_query($query,$conn))
+{
+	echo "success";
+}
+else {
+	echo "Query Failed";
+}
+?>

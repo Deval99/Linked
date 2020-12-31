@@ -1,0 +1,6 @@
+IMP !!
+
+echo'<li style="margin:10px"><a href="p/logout.php"><span class="glyphicon glyphicon-user" aria-hidden="true">'.$_SESSION['id'].'</span>Sign Out</a></li>
+						';
+
+						
